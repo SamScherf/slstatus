@@ -5,8 +5,13 @@ for personal use on my X200T
 
 ## Modules
 
-- Date/Time
+- Uptime
+- CPU
+- Ram
+- Wifi Strength
 - Battery
+- Date
+- Time
 
 ## Dependencies 
 
