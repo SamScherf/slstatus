@@ -3,14 +3,12 @@
 This is a fork of the suckless program slstatus that has been customized
 for personal use on my X200T
 
-## Modifications 
+## Modules
 
-There are currently no modifications
+- Date/Time
+- Battery
 
 ## Dependencies 
 
-There are currently no dependencies
-
-## Patches
-
-There are currently no patches
+Icons are present for most modules so a font supporting icons should be installed.
+The config has been written using icons from awesome font 5.
