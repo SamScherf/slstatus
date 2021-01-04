@@ -71,6 +71,8 @@ static const struct arg args[] = {
 	{ separator, " / ",           "NULL" },
 	{ ram_total, "%s]",           "NULL" },
 	{ wifi_perc, "[ %s%%]",           "wlp2s0" },
+	{ run_command, "[ %s]", "amixer sget Master | awk -F\"[][]\" '/%/ { print $2 }' | head -n1"},
+	{ run_command, "[ %s/15]", "cat /sys/class/backlight/acpi_video0/actual_brightness"},
 	{ battery_perc, "[ %s%%]",           "BAT0" },
 	{ datetime, "[ %s]",           "%A, %B %-d" },
 	{ datetime, "[ %s]",           "%r" },

@@ -10,10 +10,12 @@ for personal use on my X200T
 - Ram
 - Wifi Strength
 - Battery
+- Brightness
 - Date
 - Time
 
 ## Dependencies 
 
 Icons are present for most modules so a font supporting icons should be installed.
-The config has been written using icons from awesome font 5.
+The config has been written using icons from awesome font 5. The current volume
+is also collected via alsautils.
